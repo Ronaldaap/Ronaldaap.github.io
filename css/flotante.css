@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container-icons{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 500;
+}
+
+.icon-circle-with-plus{
+    font-size: 70px;
+    transition: all 300ms;
+    color: #1097e6;
+}
+
+.row-icon{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 300ms;
+    opacity: 1;
+    padding: 5px;
+}
+
+.container-icons:hover .row-icon{
+    opacity: 1;
+}
+
+.row-icon h4{
+    transform: translate(-10px, 10px);
+    background: rgba(0,0,0,0.6);
+    height: 20px;
+    font-weight: 300;
+    padding: 2px 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+.row-icon label{
+    font-size: 40px;
+}
+
+
+
+.icon1{
+    transform: translate(-100px, -40px) scale(0);
+}
+
+.icon2{
+    transform: translate(-0px, -90px) scale(0);
+}
+
+.icon3{
+    transform: translate(-100px, -180px) scale(0);
+}
+
+
+.container-icons:hover .icon1{
+    transform: translate(-66px, -50px) scale(1);
+}
+
+.container-icons:hover .icon2{
+    transform: translate(-58px, -100px) scale(1);
+}
+
+.container-icons:hover .icon3{
+    transform: translate(-45px, -150px) scale(1);
+}
+
+
+.label1{
+    color: #1043c4;
+}
+
+.label2{
+    color: #db0a0a;
+}
+
+.label3{
+    color: #032c79;
+}
+
+
+
